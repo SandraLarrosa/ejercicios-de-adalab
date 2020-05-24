@@ -1,0 +1,10 @@
+.displays {
+    height: 100px;
+    width: 100px;
+    border: 2px solid magenta;
+    margin-bottom: 5px;
+    /* display: block; Mismo display que el predefinido. En modo columna*/
+    /* display: inline; Se juntan unos encima de otros*/
+    /* display: inline-block; Se colocan uno al lado del otro*/
+    /* display: none; Desaparece */
+}
