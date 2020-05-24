@@ -1,0 +1,14 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+    background-color: palevioletred;
+    padding: 10px;
+    box-sizing: border-box; /* La imagen se ha salio del div */
+    margin: auto; /* La imagen se ha centrado en la pantalla */
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
