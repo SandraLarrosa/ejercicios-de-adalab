@@ -4,7 +4,8 @@
     height: 500px;
     width: 500px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Eje principal en vertical - Eje secundario en horizontal*/
+    /* flex-direction: row;  Eje principal en horizontal - Eje secundario en vertical*/ 
 }
 
 .items {
