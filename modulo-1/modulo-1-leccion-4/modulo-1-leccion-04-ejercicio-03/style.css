@@ -1,0 +1,17 @@
+.boxContent {
+    background-color: rgb(245, 189, 169);
+    border: 2px solid orange;
+    height: 100px;
+    display: flex;
+}
+
+li {
+    display: block;
+    margin: 20px;
+}
+
+.itemsContent {
+    display: flex;
+    justify-content: space-evenly;
+}
+
