@@ -1,0 +1,27 @@
+
+.item {
+    color: yellow;
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.item1{
+    background-color: rgb(218, 153, 175);
+    height: 100px;
+}
+
+.item2{
+    background-color: rgb(64, 31, 107);
+    height: 300px;
+}
+
+.item3{
+    background-color: rgba(214, 101, 60, 0.801);
+}
+
+.item4{
+    background-color: rgb(132, 228, 245);
+    height: 100px;
+}
