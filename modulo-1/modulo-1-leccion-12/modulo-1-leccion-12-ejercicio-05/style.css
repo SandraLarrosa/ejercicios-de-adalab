@@ -9,12 +9,12 @@
 
 .item1{
     background-color: rgb(218, 153, 175);
-    height: 100px;
+    height: 20vh;
 }
 
 .item2{
     background-color: rgb(64, 31, 107);
-    height: 300px;
+    height: 60vh;
 }
 
 .item3{
@@ -23,5 +23,5 @@
 
 .item4{
     background-color: rgb(132, 228, 245);
-    height: 100px;
+    height: 20vh;
 }
