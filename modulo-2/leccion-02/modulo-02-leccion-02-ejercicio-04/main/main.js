@@ -8,8 +8,8 @@ const priceAna = 2;
 
 const total = totalPrice / totalPerson;
 
-console.log(total);
+console.log(`Cada uno tiene que pagar ${total} €`);
 
 const totalAna = total + priceAna;
 
-console.log(totalAna);
+console.log(`Ana tiene que pagar ${totalAna} €`);
