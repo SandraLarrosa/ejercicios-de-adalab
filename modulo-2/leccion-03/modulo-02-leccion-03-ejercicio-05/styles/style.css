@@ -1,0 +1,38 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.exercise {
+    color: grey;
+    font-size: 14px;
+    font-style: italic;
+    border-bottom: 1px solid grey;
+}
+
+
+.button {
+    width: 200px;
+    height: 120px;
+    margin: auto;
+    margin-top: 40px;
+    border: 1px solid grey;
+    background-color: rgb(190, 190, 190);
+    text-align: center;
+}
+.success {
+    border: 2px solid rgb(1, 51, 1);
+    background-color: green;
+    color: rgb(1, 51, 1);
+}
+
+.error {
+    border: 2px solid rgb(51, 1, 1);
+    background-color: red;
+    color: rgb(51, 1, 1);
+}
+
+.warning {
+    border: 2px solid rgb(109, 107, 3);
+    background-color: yellow;
+    color: rgb(109, 107, 3);
+}
