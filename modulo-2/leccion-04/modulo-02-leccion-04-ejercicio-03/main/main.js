@@ -3,10 +3,14 @@
 function ticket(a) {
     const iva = a * 21 / 100;
     const total = a + iva;
-    const text = `Precio sin IVA: ${a}, IVA: ${iva}, Total: ${total}`
-    return text
+    return `Precio sin IVA: ${a}, IVA: ${iva}, Total: ${total}`;
 }
 
-console.log(ticket(20));
-console.log(ticket(5));
-console.log(ticket(12));
+const text = ticket(20);
+const text1 = ticket(5);
+const text2 = ticket(12);
+
+
+console.log(text);
+console.log(text1);
+console.log(text2);
