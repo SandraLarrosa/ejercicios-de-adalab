@@ -1,0 +1,23 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.exercise {
+    color: grey;
+    font-size: 14px;
+    font-style: italic;
+    border-bottom: 1px solid grey;
+}
+
+.background {
+    padding: 20px;
+    border: 2px solid magenta;
+}
+
+.color1 {
+    background-color: turquoise;
+}
+
+.color2{
+    background-color: palevioletred;
+}
