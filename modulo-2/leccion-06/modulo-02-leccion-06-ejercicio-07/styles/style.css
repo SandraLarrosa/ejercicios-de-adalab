@@ -1,0 +1,23 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.exercise {
+    color: grey;
+    font-size: 14px;
+    font-style: italic;
+    border-bottom: 1px solid grey;
+}
+
+.button {
+    margin: 20px;
+    width: 180px;
+    height: 50px;
+    border: 2px solid rgb(1, 231, 181);
+    border-radius: 20px;
+    background-color: rgb(161, 236, 220);
+    text-transform: uppercase;
+    font-size: 18px;
+    cursor: pointer;
+}
+
