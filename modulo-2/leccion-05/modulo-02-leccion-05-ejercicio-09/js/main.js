@@ -12,7 +12,7 @@ function selected(e){
   if(sectionElement.classList.contains('teacher--selected')) {
         sectionElement.querySelector('.favorite').innerHTML = 'Quitar'
     } else {
-        sectionElement.querySelector('.favorite').innerHTML = 'Añàdir'
+        sectionElement.querySelector('.favorite').innerHTML = 'Añadir'
     }
 }
  
