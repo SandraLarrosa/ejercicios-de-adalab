@@ -1,19 +1,24 @@
 'use strict'
 
-const inception = 'Inception';
-const theButterFlyEffect = 'The butterfly effect';
-const eternalSunshineOfTheSM = 'Eternal sunshine of the spotless mind';
-const blueVelvet = 'Blue velvet';
-const split = 'Split';
 
-const button = document.querySelector('.button');
-const list = document.querySelector('.list');
+const adalaber = {};
 
+const job = 'developer';
 
-function addList(event) {
-    list.innerHTML = `<h2>Listado de películas:</h2><li>${inception}</li><li>${theButterFlyEffect}</li><li>${eternalSunshineOfTheSM}</li><li>${blueVelvet}</li><li>${split}</li>`;
-}
+adalaber.firstName = 'María';
 
+adalaber.lastName = "Ozamiz";
 
+adalaber.age = 35;
 
-button.addEventListener('click', addList);
+adalaber.job = job;
+
+adalaber.firstName = "Alexandra";
+
+adalaber.age += 1;
+
+console.log(adalaber.firstName);
+console.log(adalaber.lastName);
+console.log(adalaber.age);
+console.log(adalaber.job);
+

@@ -16,11 +16,18 @@ function selected(e){
     }
 }
  
-function getElementTarget() {
+/* function getElementTarget() {
   for(let i = 0; i < teacher.length; i++) { 
     teacher[i].addEventListener('click', selected);
   }
 } 
+ */
+
+function getElementTarget() {
+  for (const teach of teacher) {
+    teach.addEventListener('click', selected);
+  }
+}
 
 getElementTarget();
 
