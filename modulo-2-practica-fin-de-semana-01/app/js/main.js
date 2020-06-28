@@ -28,7 +28,7 @@ function login(ev) {
 	} else {
 		attemps++;
 		textError.classList.remove('hidden');
-		console.log(`Te quedan ${attemps-3}`);
+		console.log(`Te quedan ${3 - attemps} intentos`);
 	}
 }
 
