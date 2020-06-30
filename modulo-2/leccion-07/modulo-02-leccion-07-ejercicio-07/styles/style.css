@@ -1,0 +1,33 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.exercise {
+    color: grey;
+    font-size: 14px;
+    font-style: italic;
+    border-bottom: 1px solid grey;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.serie1, .serie2{
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: plum;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
