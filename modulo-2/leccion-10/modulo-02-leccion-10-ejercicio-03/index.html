@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <div class= "exercise">
+        <h1>Buscador de usuarios en GitHub</h1>
+        <p>Ahora vamos a explorar un nuevo API: el API de usuarios de GitHub. La URL de este API es https://api.github.com/users/{username}, donde {username} es el nombre del usuario en GitHub. Por ejemplo, aquí tenéis la URL para obtener información del usuario de Isra https://api.github.com/users/gootyfer. Si ponéis esta URL en una nueva pestaña del navegador podréis observar qué datos nos devuelve el API.
+        <br>
+        Vamos a crear una página en la que haya un input de texto y un botón de buscar. El usuario escribirá en el input un nombre de usuario de GitHub. Prepararemos una función que se ejecute cuando se pulse el botón buscar y que contenga una petición al API para obtener información de ese usuario y así mostrarla en nuestra página:
+        <ul>
+            <li>nombre</li>
+            <li>número de repositorios</li>
+            <li>avatar (imagen)</li>
+        </ul>
+        </p>
+    </div>
+    <div>
+        <h2>Buscador de usuarios en GitHub</h2>
+        <form action="">
+            <label for="search">
+                <input type="text" id="search" class="js-input input">
+            </label>
+            <button type="submit" class="js-button button">Buscar</button>
+        </form>
+        <p class='hidden error js-userError'>El usuario introducido no existe</p>
+        <div>
+            <h3 class="name">Nombre: <span class="js-name userName"></span></h3>
+            <p class="number">Número de repositorios: <span class="js-number userNumber"></span></p>
+            <div class="imagen">
+                <img src="https://pbs.twimg.com/profile_images/914696109712429056/HrMOKmtU_400x400.jpg" alt="Foto" class="js-image">
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
