@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Ejercicio 5</title>
+  </head>
+  <body>
+    <div class="exercise">
+    <h1>Mi tema Preferido</h1>
+    <p>
+      Vamos a preparar una página sencilla, con un título, un par de párrafos y un selector de tema. Para hacer el selector:
+      <br>
+      <ul>
+          <li>Añadiremos dos radio buttons para poder elegir entre claro y oscuro.</li>
+          <li>Prepararemos dos clases de css: una pondrá el fondo claro y el texto oscuro, y la otra pondrá el fondo oscuro y el texto claro.</li>
+          <li>Aplicaremos a nuestra página una clase u otra según la selección de la usuaria, apoyándonos en el value del input seleccionado.</li>
+          <li>Paralelamente cada vez que la usuaria elija un tema, guardaremos esta información en localStorage.</li>
+          <li>Al cargar la página buscaremos en localStorage el tema seleccionado en la última visita y lo aplicaremos sin que la usuaria tenga que realizar ninguna acción.</li>
+      </ul>
+    </p>
+  </div>
+  <div class="practice">
+    <div class="inputs">
+      <div class="input">
+        <label for="colorDark">
+          <input
+            id="colorDark"
+            type="radio"
+            value="colorDark"
+            name="changeColor"
+            class="js-color"
+          />
+          Color Dark
+        </label>
+      </div>
+      <div class="input">
+        <label for="colorLigth">
+          <input
+            id="colorLight"
+            type="radio"
+            value="colorLight"
+            name="changeColor"
+            class="js-color"
+          />
+          Color Light
+        </label>
+      </div>
+    </div>
+    <div class="content js-text">
+    <h2>Cambiando el tema</h2>
+    <p class="text">Lorem fistrum ese que llega está la cosa muy malar diodenoo amatomaa a gramenawer a gramenawer mamaar de la pradera. Qué dise usteer qué dise usteer al ataquerl se calle ustée no te digo trigo por no llamarte Rodrigor benemeritaar llevame al sircoo a wan mamaar. Te va a hasé pupitaa mamaar la caidita caballo blanco caballo negroorl al ataquerl te voy a borrar el cerito papaar papaar diodeno torpedo ese pedazo de. Al ataquerl mamaar no te digo trigo por no llamarte Rodrigor diodeno a wan te va a hasé pupitaa. Por la gloria de mi madre no te digo trigo por no llamarte Rodrigor se calle ustée condemor al ataquerl qué dise usteer te va a hasé pupitaa por la gloria de mi madre diodenoo.</p>
+    <p class="text">Por la gloria de mi madre a wan jarl te va a hasé pupitaa sexuarl a wan. Te voy a borrar el cerito quietooor fistro pupita de la pradera torpedo benemeritaar hasta luego Lucas quietooor. Torpedo papaar papaar quietooor se calle ustée. Me cago en tus muelas no te digo trigo por no llamarte Rodrigor apetecan hasta luego Lucas papaar papaar quietooor jarl. Benemeritaar se calle ustée mamaar ese hombree ese que llega al ataquerl está la cosa muy malar ese hombree pupita apetecan. Benemeritaar qué dise usteer ese hombree pupita pecador.</p>
+    </div>
+  </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
