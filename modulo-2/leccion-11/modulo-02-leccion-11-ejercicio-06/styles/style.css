@@ -1,0 +1,15 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.exercise {
+    color: grey;
+    font-size: 14px;
+    font-style: italic;
+    border-bottom: 1px solid grey;
+}
+
+
+.practice {
+    margin: 30px;
+}
