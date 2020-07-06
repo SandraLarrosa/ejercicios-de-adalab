@@ -14,6 +14,7 @@ function getUser(ev) {
     .then((response) => response.json())
     .then((data) => {
       if (user === data.login) {
+        console.log(data);
         error.classList.add('hidden');
         name.innerHTML = data.name;
         number.innerHTML = data.public_repos;
