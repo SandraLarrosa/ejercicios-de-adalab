@@ -1,0 +1,40 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+}
+
+.exercise {
+    color: grey;
+    font-size: 14px;
+    font-style: italic;
+    border-bottom: 1px solid grey;
+}
+
+h2{
+    color: rgb(1, 136, 141);
+}
+
+.hidden{
+    display: none;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.input {
+    font-weight: bold;
+}
+
+.button {
+    background-color: rgb(1, 136, 141);
+    border: inherit;
+    border-radius: 5px;
+    color: white;
+}
+
+.userName, .userGender {
+    color: rgb(1, 136, 141);
+}
+
