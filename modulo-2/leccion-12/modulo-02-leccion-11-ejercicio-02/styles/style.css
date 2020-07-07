@@ -1,0 +1,28 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.exercise {
+    color: grey;
+    font-size: 14px;
+    font-style: italic;
+    border-bottom: 1px solid grey;
+}
+
+h2{
+    color: rgb(1, 136, 141);
+}
+
+.listCity{
+    display: flex;
+
+}
+.photo {
+    width: 320px;
+    height: 320px;
+    margin: 20px;
+}
+
+img {
+    width: 100%;
+}

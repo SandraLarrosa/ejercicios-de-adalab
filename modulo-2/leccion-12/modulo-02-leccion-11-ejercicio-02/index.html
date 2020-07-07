@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Ejercicio 2</title>
+  </head>
+  <body>
+    <div class="exercise">
+      <h1>De viaje</h1>
+      <p>
+        Crea una página que contenga tres imágenes, usando un select de formulario pregúntale a la usuaria qué ciudad quiere visitar.
+        <ul>
+          <li>Si la usuaria elige Madrid, haz que en cada imagen se muestre una foto de Madrid</li>
+          <li>Haz lo mismo para París y Nueva York</li>
+        </ul>
+        Nota: Usa imágenes que encuentres por Internet.
+    </div>
+    <div>
+      <h2>Elige una ciudad</h2>
+      <label for="city">
+        <select name="city" id="city" class="js-select">
+          <option value="madrid">Madrid</option>
+          <option value="paris">Paris</option>
+          <option value="nuevaYork">Nueva York</option>
+        </select>
+      </label>
+      <ul class="listCity js-photos">
+        <div class="photo">
+          <img class="img" src="" alt="">
+        </div>
+        <div class="photo">
+          <img class="img" src="https://images.unsplash.com/photo-1578305698944-874fa44d04c9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="">
+        </div>
+        <div class="photo">
+          <img class="img" src="https://images.unsplash.com/photo-1518620121781-adab13a3d1ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1088&q=80" alt="">
+        </div>
+      </ul>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
