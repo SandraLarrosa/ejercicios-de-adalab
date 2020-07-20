@@ -1,12 +1,11 @@
 import React from 'react';
-import RandomCat from './RandomCat';
-import logo from '../logo.svg';
+import CatList from './CatList'
 import '../App.css';
 
 function App() {
   return (
     <div className="App">
-      <RandomCat/>
+      <CatList/>
     </div>
   );
 }
