@@ -1,7 +1,7 @@
 import React from 'react';
 
 function MediaCard(props) {
-  console.log(props);
+  console.log();
   const cardTitle = (
     <div className='card__title'>
       <img className='img' src={props.img} alt='cat'></img>
