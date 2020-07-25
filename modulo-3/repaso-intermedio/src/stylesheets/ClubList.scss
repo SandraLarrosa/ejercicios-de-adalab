@@ -1,3 +1,7 @@
-.clubList {
-    color: yellowgreen;
+.clubList{
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }

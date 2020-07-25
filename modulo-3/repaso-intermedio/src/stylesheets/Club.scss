@@ -1,4 +1,38 @@
-.club{
-    text-align: center;
-    color: blue;
+.cardClub {
+  display: flex;
+  background-color: whitesmoke;
+  width: 600px;
+  height: 220px;
+  padding: 5px;
+  margin: 15px;
+}
+
+.icon {
+  width: 152px;
+  padding: 20px;
+  font-size: 90px;
+  text-align: center;
+  align-self: center;
+  color: rgb(4, 136, 118);
+}
+
+.cardText {
+  padding: 10px;
+}
+
+.cardMembers {
+  margin-top: 20px;
+
+  &__title {
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: rgb(168, 168, 168);
+  }
+
+  &__list {
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+  }
 }

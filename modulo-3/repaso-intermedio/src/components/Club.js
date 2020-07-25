@@ -1,17 +1,24 @@
 import React from 'react';
-import ClubList from './ClubList';
 import '../stylesheets/Club.scss';
 
 const Club = (props) => {
   const nameMembers = props.members.map((member) => {
-      return <p>{member}</p>;
+    return <li>{member}</li>;
   });
+
   return (
-    <div className='club'>
-      <h1>{props.name}</h1>
-      <i className={props.icon}></i>
-      {nameMembers}
-    </div>
+    <>
+      <article className='cardClub'>
+        <i className={`${props.icon} icon`}></i>
+        <div className='cardText'>
+          <h2 className='cardTitle'>{props.name}</h2>
+          <div className='cardMembers'>
+            <h4 className='cardMembers__title'>Members:</h4>
+            <ul className='cardMembers__list'>{nameMembers}</ul>
+          </div>
+        </div>
+      </article>
+    </>
   );
 };
 
