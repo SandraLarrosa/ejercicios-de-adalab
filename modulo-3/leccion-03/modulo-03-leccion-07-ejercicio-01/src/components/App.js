@@ -1,24 +1,37 @@
 import React, { useState } from 'react';
 import '../stylesheets/App.scss';
 import OlderYear from './OlderYear';
+import NewGift from './NewGift';
 
 function App() {
-  const initialState = 32
-  const [year, setYear] = useState(initialState);
+  const initialYears = 32;
+  const initialGifts = 1;
 
-  const sumNewYear = (year) => year + 1;
+  const [year, setYear] = useState(initialYears);
+  const [gift, setGift] = useState(initialGifts)
+
+  const sum = (number) => number + 1;
 
   const handleNewYear = () => {
-    setYear(sumNewYear(year))
+    setYear(sum(year))
+  }
+
+  const handleNewGift = () => {
+    setGift(sum(gift))
   }
 
   const handleResetState = () => {
-    setYear(initialState)
+    setYear(initialYears)
+  }
+
+  const handleResetGifts = () => {
+    setGift(initialGifts)
   }
 
   return (
     <div className='App'>
-      <OlderYear getYear={handleNewYear} yearNumber={year} resetYear={handleResetState}/>
+      <OlderYear getYear={handleNewYear} yearNumber={year} resetYear={handleResetState} />
+      <NewGift getGift={handleNewGift} giftNumber={gift} resetGift={handleResetGifts}/>
     </div>
   );
 }
